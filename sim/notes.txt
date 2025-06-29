@@ -1,0 +1,2 @@
+there're errors in UVM_Report due to (`uvm error) when division by zero
+there're don't care outputs in simulation due to division by zero
