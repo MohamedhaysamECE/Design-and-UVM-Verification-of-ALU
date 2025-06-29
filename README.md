@@ -25,11 +25,16 @@ This project implements a 16-bit Arithmetic Logic Unit (ALU) in Verilog and veri
 ## Testbench Features:
 
 • Randomized input generation using SystemVerilog constraints
+
 • Functional coverage collection through subscriber
+
 • Scoreboard-based result checking
+
 • UVM-like components: sequencer, driver, monitor, scoreboard, and environment
+
 • Coverage report generation via QuestaSim
 
 ## Verification Goals:
 • Check correctness of ALU outputs under edge cases (e.g. max/min values, division by zero)
+
 • Achieve high functional and code coverage
